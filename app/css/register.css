@@ -1,0 +1,58 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+form {
+	text-align: center;
+	margin: 8% 30%;
+	width: 35%;
+	/*border: 1px solid black;*/
+	padding: 50px 35px;
+	display: block;
+	box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+tr, td{
+	/*border: 1px solid black;*/
+	padding: 10px;
+	font-size: 18px;
+}
+
+input[type='text'], input[type='password'] {
+	width: 100%;
+	padding: 8px 60px;
+}
+
+input[type='submit'] {
+	border: none;
+	border-radius: 5px;
+	padding: 10px 15px;
+	font-family: Helvatica;
+	font-size: 17px;
+	background-color: green;
+	color: white;
+	cursor: pointer; 
+}
+
+/*#home-div {
+	border: 1px solid black;
+	position: relative;
+}*/
+
+#home {
+	position: absolute;
+	text-decoration: none;
+	border: 1px solid black;
+	top: 10px;
+	left: 10px;	
+	padding: 10px;
+	background-color: green;
+	color: white;
+}
+
+#link {
+	/*border: 1px solid black;*/
+	display: block;
+	text-align: left;
+}

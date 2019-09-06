@@ -1,0 +1,118 @@
+* {
+	margin: 0;
+}
+
+header {
+	/*border: 1px solid black;*/
+	text-align: center;
+	height: 60%;
+	position: fixed;
+	left: 38%;
+	top: 20%;
+}
+
+header h1 {
+	margin-top: 10%;
+	font-size: 3.5em;
+	font-family: Comic Sans MS;
+	color: white;
+}
+header p {
+	margin-top: 15px;
+	font-size: 20px;
+	color: white;
+}
+header .anchor {
+	margin-top: 20%;
+}
+
+.anchor a{
+	border: none;
+	font-size: 20px;
+	border-radius: 4px;
+	background-color: blue;
+	color: white;
+	padding: 12px 22px;
+	box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.6);
+	cursor: pointer;
+	text-decoration: none;
+}
+
+article, footer {
+	padding-top: 50px;
+	position: relative;
+	background-color: white;
+	top: 80%;
+}
+
+article {
+	/*padding: 40px;*/
+}
+
+#income, #expense {
+	display: flex;
+	padding: 10px;
+	justify-content: space-between;
+}
+
+#income img, #expense img {
+	width: 850px;
+	height: 450px;
+	border-radius: 10px;
+}
+
+#expense img {
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#income img {
+	box-shadow: 1px 2px 7px rgba(0, 0, 0, 0.5);
+}
+
+#expense_div {
+	/*border: 1px solid black;*/
+	padding-top: 10%;
+	padding-left: 5%;
+	padding-right: 4%;
+	font-size: 20px;
+	color: grey;
+	font-family: Helvatica;
+}
+
+#income_div {
+	color: grey;
+	font-family: Helvatica;
+	font-size: 20px;
+	padding-top: 10%;
+	padding-left: 4%;
+	padding-right: 5%;
+	/*padding: left: 5%;*/
+} 
+
+#desc {
+	/*border: 1px solid black;*/
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 3%;
+	font-size: 20px;
+	font-family: Bodoni MT;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5)
+}
+
+footer {
+	/*padding-top: 10px;*/
+}
+footer p {
+	padding: 2%;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+video {
+	position: fixed;
+	/*min-width: 100%;	*/
+	/*min-height: 20%%;*/
+	min-width: 100%;
+}
+
